@@ -1,0 +1,8 @@
+{
+  "catalog": [],
+  "payments": [],
+  "orders": ["catalog", "payments"],
+  "notifications": ["orders"],
+  "reporting": ["orders"],
+  "storefront": ["catalog", "orders"]
+}

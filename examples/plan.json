@@ -1,0 +1,31 @@
+{
+  "changed": [
+    "payments"
+  ],
+  "affected": [
+    "notifications",
+    "orders",
+    "payments",
+    "reporting",
+    "storefront"
+  ],
+  "unaffected": [
+    "catalog"
+  ],
+  "batches": [
+    [
+      "payments"
+    ],
+    [
+      "orders"
+    ],
+    [
+      "notifications",
+      "reporting",
+      "storefront"
+    ]
+  ],
+  "external_prerequisites": [
+    "catalog"
+  ]
+}
